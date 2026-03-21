@@ -1,0 +1,38 @@
+# ---------------------------------------------------
+# Arquivos gerados durante a compilação (C/C++)
+# ---------------------------------------------------
+
+# Arquivos de objeto
+*.o
+*.obj
+
+# Bibliotecas dinâmicas e estáticas
+*.so
+*.dll
+*.a
+*.lib
+
+# Executáveis (Windows, Linux e macOS)
+*.exe
+*.out
+*.app
+
+# Arquivos de debug e informações do compilador
+*.pdb
+*.ilk
+*.d
+*.i
+
+# ---------------------------------------------------
+# Configurações locais de IDE e Sistema Operacional
+# ---------------------------------------------------
+
+# Lixo do macOS
+.DS_Store
+
+# Lixo do Windows
+Thumbs.db
+
+# Configurações locais de extensões do VS Code 
+# (Descomente a linha abaixo se os alunos começarem a commitar a pasta .vscode acidentalmente)
+#.vscode/

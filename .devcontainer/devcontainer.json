@@ -1,0 +1,29 @@
+{
+    "name": "Ambiente C++ da Disciplina",
+    "image": "mcr.microsoft.com/devcontainers/cpp:1-ubuntu-22.04",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-vscode.cpptools-themes",
+                "MS-CEINTL.vscode-language-pack-pt-BR",
+                "formulahendry.code-runner",
+                "usernamehw.errorlens"
+            ],
+            "settings": {
+                "editor.quickSuggestions": {
+                    "other": false,
+                    "comments": false,
+                    "strings": false
+                },
+                "editor.suggestOnTriggerCharacters": false,
+                "editor.wordBasedSuggestions": "off",
+                "editor.parameterHints.enabled": false,
+                "C_Cpp.autocomplete": "disabled",
+                "C_Cpp.intelliSenseEngine": "disabled",
+                "code-runner.runInTerminal": true,
+                "code-runner.saveFileBeforeRun": true
+            }
+        }
+    }
+}
